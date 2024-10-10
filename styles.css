@@ -1,0 +1,163 @@
+
+/* General styles */
+body {
+background-color: #f3e9dc; /* Fondo color crema claro */
+font-family: 'Arial', sans-serif;
+color: #4b3d2a; /* Texto principal en marrón oscuro */
+margin: 0;
+padding: 0;
+}
+
+/* Header styles */
+header {
+background-color: #d2691e; /* Marrón anaranjado otoñal */
+color: white;
+padding: 20px;
+text-align: center;
+border-bottom: 2px solid #8b4513;
+}
+
+.tituloprincipal {
+margin: 0;
+padding-bottom: 10px;
+font-size: 2.5em;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 30px;
+padding: 20px;
+font-weight: bold;
+}
+
+nav a:hover {
+color: #ffd700; /* Efecto hover dorado */
+}
+
+/* Section styles */
+section {
+padding: 20px;
+background-color: #fffaf0; /* Fondo color marfil claro */
+}
+
+
+h2, h3 {
+color: #b22222; /* Rojo oscuro */
+padding-left: 20px;
+text-align:center;
+}
+
+p {
+line-height: 1.4;
+color: #4b3d2a;
+}
+
+/* Footer styles */
+footer {
+background-color: #8b4513; /* Marrón oscuro */
+color: white;
+text-align: center;
+padding: 10px 0;
+position: fixed;
+width: 100%;
+bottom: 0;
+}
+
+.img-text-container {
+display: flex;
+align-items:center;
+gap: 20px; /* Espacio entre la imagen y el texto */
+margin-bottom: 20px;
+}
+    
+.img-text-container img {
+max-width: 300px; /* Limita el tamaño de la imagen */
+height: auto;
+border: 2px solid #8b4513; /* Borde para la imagen */
+}
+    
+.img-text-container div {
+flex: 1; /* Hace que el texto ocupe el espacio restante */
+color: #4b3d2a;
+}
+
+.centrar-furgoneta{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%; /* Ajusta el tamaño si es necesario */
+}
+
+strong, .estilos-label{ 
+    color: #8b4513;
+    font-size: 18px;
+}
+
+/*formulario*/
+
+.body-container{
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+}
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    max-height: 800px;
+    margin: 40px;
+    justify-content: center;
+    padding: 60px;
+
+    }
+    
+    h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    .form-group {
+    margin-bottom: 15px;
+    }
+
+    label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    
+    textarea {
+    resize: none;
+    }
+    
+    button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color:#d2691e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #0056b3;
+    }
